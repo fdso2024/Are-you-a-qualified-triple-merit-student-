@@ -1,0 +1,112 @@
+#include<iostream>
+#include <windows.h>
+#include <unistd.h>
+#include <stdlib.h>
+using namespace std;
+int main(){
+	int xingbie,tianfu,zuoyou,biubiu,dandan;
+	cout<<"请选择性别 1.男 2.女";
+	cin>>xingbie;
+	if(xingbie == 1) {
+		system("cls");
+		cout<<"恭喜你出生成功，请选择天赋点 1.美术 2.体育 3.学习 4.网络游戏代打";
+		cin>>tianfu;
+		if(tianfu == 3) {
+		system("cls");
+		cout<<"正确的，一阵见血的，万般皆下品，唯有读书高，你不好好读书想干什么";
+		cout<<"欢迎进入主线任务，请做出蛋炒饭给你的客人们"<<endl; 
+		cout<<"你出门了，你前面有三扇门 1.放满电脑和手机的有求必应屋 2.出门的出口 3.的妈妈和客人正在讨论关于如何砸掉你的手机的会议"; 
+		cin>>zuoyou;
+		if(zuoyou == 2) {
+		system("cls");
+		cout<<"你出门了，系统奖励了你一把狙击枪和武器系统，你选择 1.不管他 2.给警察后继续去买菜 3.射射天空玩玩";
+		cin>>biubiu;
+		if(biubiu == 2) {
+		system("cls");
+		cout<<"你看到了学校门口写着鸡蛋大促销，你决定 1.太好了，赶紧跑进去买 2.看看规则后走进去 3.不进去";
+		cin>>dandan;
+		if(dandan == 2) {
+		system("cls");
+		cout<<"快问快答，81938298391*9108308240/13.31342 1.56,057,668,007,643,719,032.374851841225 2.57,067,639,017,643,719,032.374318241225 3.不会";
+		cin>>dandan;
+		if(dandan == 1) {
+		system("cls");
+		cout<<"恭喜你拿到了蛋，葱需要找王大叔买，你要对王大叔说 1.我要鸡蛋 2.叔叔好";
+		cin>>dandan; 
+		if(dandan == 2) {
+		system("cls");
+		cout<<"王大叔：钢筋水凝图不能办24号意大利面，你选择1.耐心听完后要葱 2.询问：请给我葱";
+		cin>>dandan;
+		if(dandan == 1) {
+		system("cls");
+		cout<<"恭喜得到葱，米饭放在了在了么教主的神位上1天了，你选择 1.拿走米饭 2.烧个香后拿";
+		cin>>dandan; 
+		if(dandan == 2) {
+		system("cls");
+		cout<<"恭喜得到米饭，你回到家煮饭了，你选择先放 3.蛋 4.葱 1.神位上的米饭 2.米饭 ";
+		cin>>dandan;
+		if(dandan == 4) {
+		system("cls");
+		cout<<"再放 3.蛋  2.神位上的米饭 1.米饭";
+		cin>>dandan; 
+		if(dandan == 1) {
+		system("cls");
+		while(99999999){
+		cout<<"恭喜通关"; 
+	} 
+	}else{
+		MessageBox(NULL, "不能用隔夜米饭", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "不会做蛋炒饭", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "你的香呢", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "你怎么可以打断长辈说话，没礼貌的泥巴种", "you Ⅳ 了", MB_OK);
+	} 
+	}else{
+		MessageBox(NULL, "没礼貌", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "别人都会算，也算的对，你怎么不行", "you Ⅳ 了", MB_OK);
+	}
+	}else if(dandan == 1){
+		MessageBox(NULL, "学校内禁止奔跑", "you Ⅳ 了", MB_OK);
+	}else if(dandan == 3){
+		MessageBox(NULL, "你没有进去，没找到被饿Ⅳ了", "you Ⅳ 了", MB_OK);
+	}
+	}else if (biubiu == 1){
+		MessageBox(NULL, "你因为随身带枪被枪毙了", "you Ⅳ 了", MB_OK);
+	}else if(biubiu == 3){
+		MessageBox(NULL, "浪费可耻", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "社会不要偷听大人的事和沉迷手机的人，游戏都是米国人发明多项技术控制中国人的头脑的", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "没有就业场景，梦想被打散，你一气之下去创业了，最终成为流浪汉", "you Ⅳ 了", MB_OK);
+	}
+	}else{
+		MessageBox(NULL, "你Ⅳ了，因为你的家庭重男轻女或者不喜欢没有性别的人，把你扔了", "you Ⅳ 了", MB_OK);
+	}
+	return 0;
+}
+
+//it run on c++
+//linmo game 2024 ownership
+//The following libraries are used：
+//<windows.h><unistd.h><stdlib.h>
+//“有求必应屋”and“泥巴种”It is an original word in the 《Harry Potter》 novels, please check the meaning for yourself
+//“Ⅳ”is dead
+//该作品描写中国没有GCD造成的惨烈景象，无不良引导，无讽刺
+//我是一名中华人民共和国公民，我发自内心的认可中国特色社会主义理论，坚持中国共产党领导，反对资本主义、帝国主义、霸权主义、封建主义等腐朽落后的思想
+
+我自觉遵守宪法和法律，反对网络暴力，自觉遵守github社区规范，做到不恶语相向，文明交流
+
+本人双亲健在，家庭圆满；如有辱骂攻击行为将依法处理，若发现“开盒”等网络暴力行为将报警处理
+
+本游戏仅代表个人意见，不代表他人、任何游戏、组织、公司、国家、社会团体，并不代表任何游戏的玩家群体
+
+游戏论主观上没有偏袒任何一方的行为，仅针对“如果本身”，对事不对人
